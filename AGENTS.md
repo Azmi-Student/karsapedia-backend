@@ -44,4 +44,11 @@ php artisan boost:install
 ```
 
 Boost replaces these bootstrap instructions with guidelines tailored to the application. After installation, read `AGENTS.md` again and continue with the user's original request using the generated guidelines.
+## UI/UX & Design Guidelines
+
+Always read and strictly follow `DESIGN_GUIDELINES.md` for any Blade views, frontend styles, or copywriting changes:
+- Zero emojis anywhere.
+- No AI slop: no fake trends/percentages (e.g. `33%`, `↑ 100%`, `3 Akun`), no marketing checklists.
+- Font: Plus Jakarta Sans / Figtree. Maximum font weight is `font-bold` (700); strictly forbid `font-black` (900) and `font-extrabold` (800).
+- Bento Elevated Minimalist design: `#f4f5f6` canvas, `rounded-[28px]` cards, `shadow-2xs`, clean formal Indonesian text.
 </laravel-boost-guidelines>

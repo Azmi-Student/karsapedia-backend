@@ -35,4 +35,8 @@ return [
         ],
     ],
 
+    'pendidikan' => [
+        'url' => env('PENDIDIKAN_API_URL', 'https://api-pendidikan.vercel.app'),
+    ],
+
 ];
